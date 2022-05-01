@@ -86,6 +86,7 @@ body {
  *  FOOTER
  **********************************************************************/
 .footer-container {
+    text-align: center;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
