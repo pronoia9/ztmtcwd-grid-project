@@ -24,9 +24,9 @@ body {
  *  NAVIGATION
  **********************************************************************/
 .nav-container {
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .main-nav {
@@ -67,7 +67,7 @@ body {
 }
 
 .cover-image {
-    width: 30rem;
+  width: 30rem;
 }
 
 /***********************************************************************
@@ -83,10 +83,17 @@ body {
 }
 
 .project {
-    background-color: #444;
-    border: #444;
-    padding: 130px;
-    margin: 20px;
+  background-color: #444;
+  border: #444;
+  padding: 130px;
+  margin: 20px;
+}
+
+.project:hover {
+  -webkit-transform: scale(1.025);;
+  -moz-transform: scale(1.025);;
+  -o-transform: scale(1.025);;
+  transform: scale(1.025);
 }
 
 .project img {
@@ -97,7 +104,7 @@ body {
  *  FOOTER
  **********************************************************************/
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
