@@ -72,6 +72,10 @@ body {
 }
 
 .project {
+    background-color: #444;
+    border: #444;
+    padding: 130px;
+    margin: 20px;
 }
 
 .project img {
